@@ -34,6 +34,28 @@
         </dependency>
        
     </dependencies>
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-Q54IGV2-releases</name>
+        <url>http://localhost:8081/artifactory/maven-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>DESKTOP-Q54IGV2-snapshots</name>
+        <url>http://localhost:8081/artifactory/maven-release-local</url>
+    </snapshotRepository>
+         <repository>
+        <id>central</id>
+        <name>DESKTOP-Q54IGV2-releases</name>
+        <url>http://localhost:8081/artifactory/maven-snapshot-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>DESKTOP-Q54IGV2-snapshots</name>
+        <url>http://localhost:8081/artifactory/maven-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
