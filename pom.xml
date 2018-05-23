@@ -38,7 +38,7 @@
     <repository>
         <id>central</id>
         <name>DESKTOP-Q54IGV2-releases</name>
-        <url>http://localhost:8081/artifactory/maven-snapshot-local</url>
+        <url>http://localhost:8081/artifactory/maven-release-local</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
